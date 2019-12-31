@@ -12,12 +12,12 @@
     },
     "net": {
       "websocket": {
-        "//ipv6": false,
+        "ipv6": false,
         "port": 8888,
-        "//secure": {
-            "//port": 8433,
-            "//certificate": "defaultCertificate.pem",
-            "//password": ""
+        "secure": {
+            "port": 8433,
+            "certificate": "defaultCertificate.pem",
+            "password": ""
         },
         "//registrar": {
             "//address": "ws://localhost:9090",
